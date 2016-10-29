@@ -1,0 +1,129 @@
+
+h1{ 
+
+	text-align:center;
+	font-family: Arial;
+
+ }
+
+
+ h4{
+ 	font-family: Arial;
+ 	text-align: center;
+ 	margin-top: 0px;
+ 	 	
+ 	
+
+ }
+
+ 
+
+
+
+ .box {
+
+	border: 3px solid black;
+ 	
+ 	width:30%;
+ 	display:inline-block;
+ 	box-sizing:border-box;
+ 	background-color: #d9d9d9;
+ 	padding-left: 1%;
+ 	padding-right: 1%
+ 	padding-bottom: 1%;
+
+
+ 	margin:3px;
+ 	position: relative;
+
+ }
+
+ .smallboxpink {
+	 border-bottom:2px  solid black;
+	 border-left:2px  solid black;
+ 	width:20%;
+ 	height:20px;
+ 	padding-bottom: 0%;
+  	float:right;
+ 	box-sizing:border-box;
+ 	position: relative;
+ 	background-color: pink;
+ }
+
+
+ .smallboxred {
+	border-bottom:2px  solid black;
+	border-left:2px  solid black;
+ 	width:20%;
+ 	height:20px;
+ 	padding-bottom: 0%;
+  	float:right;
+ 	box-sizing:border-box;
+ 	position: relative;
+ 	background-color: red;
+ 	color:white;
+ }
+
+  .smallboxyellow {
+	 border-bottom:2px  solid black;
+	 border-left:2px  solid black;
+ 	width:20%;
+ 	height:20px;
+ 	padding-bottom: 0%;
+  	float:right;
+ 	box-sizing:border-box;
+ 	position: relative;
+ 	background-color: yellow;
+ }
+
+
+
+ 
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 767px) {
+    .box{
+		width: 100%;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+	.box:nth-of-type(1){
+		width: 49%;
+		float: left;
+	}
+
+	.box:nth-of-type(2){
+		width: 49%;
+		float: right;
+		
+	}
+
+	.box:nth-of-type(3){
+		width:99.5%;
+		clear: both;
+	}
+}
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .box{
+		width: 30%;
+
+	}
+}
+
+
+
+
